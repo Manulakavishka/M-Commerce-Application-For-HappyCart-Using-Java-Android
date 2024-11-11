@@ -90,6 +90,10 @@ Ensure to configure the following:
 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/fbcd7456-0bf0-4647-83c5-9cd451d8ce86)
+![WhatsApp Image 2024-11-12 at 04 52 54_d5dd81e3](https://github.com/user-attachments/assets/318b4ad3-2e6f-4fe4-a921-387e69b0f1be)
+![WhatsApp Image 2024-11-12 at 04 53 23_c8b4ef85](https://github.com/user-attachments/assets/bca21b79-ada8-45f4-bd66-0131839e623b)
+![WhatsApp Image 2024-11-12 at 04 53 24_70a225e8](https://github.com/user-attachments/assets/cd8d23d3-4ca7-4598-8145-ba1bf2a11264)
+
 
 ## Contributing
 
