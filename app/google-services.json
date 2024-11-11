@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "911257176881",
+    "project_id": "happy-cart-22fe8",
+    "storage_bucket": "happy-cart-22fe8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911257176881:android:a6072988294632a9e07e10",
+        "android_client_info": {
+          "package_name": "lk.jiat.app.happycart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911257176881-banvdetfq0u58o53n4a6m3tp8dh2436r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lk.jiat.app.happycart",
+            "certificate_hash": "af84fd8ca64b4769f32277f9cc792dbf479f6db0"
+          }
+        },
+        {
+          "client_id": "911257176881-r1ei5kplvjj5fs3rtdqsm8jpp9u62mhd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOgMwXnxoYQgFopwkBSc35rfGnrtZdeKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911257176881-r1ei5kplvjj5fs3rtdqsm8jpp9u62mhd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

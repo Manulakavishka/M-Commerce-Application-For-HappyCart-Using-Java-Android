@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white">
+
+    <!-- Logo or Image Here -->
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#07FF13"
+        android:text="Happy Cart"
+        android:textColor="#17F108"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAppName"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etEmail"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPassword"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#00BCD4"
+        android:foregroundTint="#00BCD4"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btnOnetapLogin"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/btnLogin"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="19dp"
+        android:foreground="@drawable/tap_svgrepo_com"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnGoogleLogin"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/btnOnetapLogin"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="-65dp"
+        android:layout_toEndOf="@+id/btnOnetapLogin"
+        android:forceHasOverlappingRendering="false"
+        android:foreground="@drawable/google_g_icon"
+        android:hapticFeedbackEnabled="false"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnOnetapLogin"
+        android:layout_marginTop="20dp"
+        android:text="Don't have an account? Sign up here"
+        android:textColor="#1976D2" />
+
+</RelativeLayout>

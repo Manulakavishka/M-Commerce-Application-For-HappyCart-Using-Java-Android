@@ -1,0 +1,91 @@
+<!-- item_address.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    android:orientation="horizontal"
+    android:outlineProvider="bounds"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/orderHistoryproductImageView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="12dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sign_in_user_interface_icon" />
+
+    <!-- Left side: Display details of each address -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#F3EFEF"
+        android:orientation="vertical"
+        android:outlineProvider="background">
+
+        <TextView
+            android:id="@+id/textViewProductNmae"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name : Name"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price : LKR 100"
+            android:textColor="#F44336"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qty : 1"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Display other address details -->
+
+    </LinearLayout>
+
+    <!-- Right side: Edit and Delete buttons -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonInvoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:text="Invoice" />
+
+        <TextView
+            android:id="@+id/textViewProductStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status : Waiting"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonAddLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#43F403"
+            android:text="Take A way"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</LinearLayout>

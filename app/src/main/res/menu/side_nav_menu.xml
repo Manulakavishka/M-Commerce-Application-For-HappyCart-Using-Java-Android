@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/sideNavGroupMain">
+        <item
+            android:id="@+id/sideNavHome"
+            android:title="@string/side_nav_home_title"
+            android:icon="@drawable/baseline_home_24"
+            android:checked="true"
+            />
+        <item
+            android:id="@+id/sideNavProfile"
+            android:title="@string/side_nav_profile_title"
+            android:icon="@drawable/baseline_person_24"
+            android:visible="false"/>
+        <item
+            android:id="@+id/sideNavOrders"
+            android:title="@string/side_nav_orders_title"
+            android:icon="@drawable/baseline_list_24"
+            android:visible="false"/>
+        <item
+            android:id="@+id/sideNavWishlist"
+            android:title="@string/side_nav_wishlist_title"
+            android:icon="@drawable/favorite_favourite_heart_like_icon"
+            android:visible="false"/>
+        <item
+            android:id="@+id/sideNavMessage"
+            android:title="@string/side_nav_message_title"
+            android:icon="@drawable/add_cart_shopping_icon"
+            android:visible="false"/>
+        <item
+            android:id="@+id/sideNavSettings"
+            android:title="@string/side_nav_setting_title"
+            android:icon="@drawable/settings_wheel_icon"
+            android:visible="false"/>
+    </group>
+
+    <group android:id="@+id/sideNavGroupAuth">
+        <item
+            android:id="@+id/sideNavLogin"
+            android:title="@string/side_nav_login_title"
+            android:icon="@drawable/sign_in_user_interface_icon"/>
+        <item
+            android:id="@+id/sideNavLogout"
+            android:title="@string/side_nav_logout_title"
+            android:icon="@drawable/sign_out_icon"
+            android:visible="false"/>
+    </group>
+
+
+</menu>
