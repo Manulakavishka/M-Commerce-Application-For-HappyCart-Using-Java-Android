@@ -238,8 +238,7 @@ public class MyLocationActivity extends AppCompatActivity implements OnMapReadyC
 
         String origin = start.latitude+","+start.longitude;
         String destination = end.latitude+","+end.longitude;
-//        String key= "AIzaSyBivMrf-4JEdG7f6aJ1GmzVRlVUEC-OPfw";
-        String key= "AIzaSyAR-dWCFnlOrAZTrfWeaKrBz-KsFHC5hLg";
+        String key= "Enter your key here";
 
         Call<JsonObject> apiJson = directionApi.getJson(origin, destination, true, key);
         apiJson.enqueue(new Callback<JsonObject>() {
